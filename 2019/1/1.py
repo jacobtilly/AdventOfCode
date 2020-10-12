@@ -1,5 +1,5 @@
 # Advent of Code
-# Day One
+# Day One Part One
 # Jacob Tilly
 
 inputFile = open("2019/1/input.txt", "r")
