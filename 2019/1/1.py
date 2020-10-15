@@ -12,5 +12,4 @@ sum = 0
 for mass in inputArray:
     fuel = int(mass) // 3 - 2
     sum += fuel
-
 print(sum)
