@@ -1,4 +1,4 @@
-input = open("2022/day1/input.txt", "r").read()
+input = open("2022/day1/input.txt", "r").read() # opens input file
 
 inputArray = [ x for x in input.split("\n") ]
 resultArray, currentSum = [], 0  # init
