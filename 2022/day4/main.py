@@ -13,6 +13,7 @@ puzzleData = get_data(year=2022, day=4).splitlines() # get input for day 4 from 
 puzzleInput = list()
 tempInput = list()
 p1 = 0
+p2 = 0
 
 def range_subset(range1, range2):
     """Whether range1 is a subset of range2."""
@@ -39,5 +40,10 @@ for item in inputList:
 for item in inputFormatted:
     if range_subset(item[0], item[1]) or range_subset(item[1], item[0]):
         p1 += 1
+        
 
-print(p1)
+for item in inputFormatted:
+    if range_subset(item[0], item[1]):
+        p2 += 1
+
+print(p1, p2)
